@@ -172,11 +172,46 @@
 .ui-course-infor-wrap .course-left-player .main-teacher span.name-r strong a {
   color: #fff;
 }
+.ui-course-infor-wrap .course-left-player .course-serve-lists{
+  overflow: hidden;
+  margin-top: 15px;
+  width: 590px;
+  span{
+    width: 65px;
+    margin-top: 4px;
+    color: #a6a6a6;
+  }
+  ul.xes-serve-list{
+    width: 520px;
+    float: left;
+    overflow: hidden;
+    li{
+      float: left;
+      display: inline;
+      height: 24px;
+      line-height: 22px;
+      text-align: center;
+      border: solid 1px #e1e1e1;
+      border-radius: 4px;
+      padding: 0 10px;
+      margin: 0 10px 10px 0;
+      background: #fff;
+      a{
+        color: #666;
+      }
+    }
+  }
+}
+.ui-course-infor-wrap .course-left-player span.course-desc{
+  color: #a6a6a6;
+  margin-bottom: 15px;
+}
 .ui-course-infor-wrap .course-center-list {
   width: 590px;
-  height: 400px;
+  min-height: 360px;
   margin-left: 10px;
   position: relative;
+  color: #666;
 }
 .ui-course-infor-wrap .course-center-list .course-info-limit {
   width: 100%;
@@ -529,6 +564,262 @@
   padding: 0 5px;
   margin-bottom: 3px;
 }
+.ui-course-infor-wrap .course-center-list .course-w{
+  margin-bottom: 15px;
+}
+.ui-course-infor-wrap .course-center-list .course-title-wrapper{
+  height: 45px;
+  position: relative;
+  margin-right: 140px;
+  margin-top: -7px;
+}
+.ui-course-infor-wrap .course-center-list .course-title-wrapper .course_title{
+  margin: 6px 0 0 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #333333;
+}
+.ui-course-infor-wrap .course-center-list .course-title-wrapper .course_title em{
+  font-size: 16px;
+  color: #cc0000;
+}
+.ui-course-infor-wrap .course-center-list .orange_hint{
+  font-size: 14px;
+  color: #EB645A;
+  margin: 0;
+}
+.ui-course-infor-wrap .course-center-list .course-price-wrapper{
+  width: 100%;
+  display: inline-block;
+  padding: 15px 20px;
+  background: #f9f9f9;
+}
+.ui-course-infor-wrap .course-center-list .course-price-block{
+  margin-bottom: 20px;
+}
+.ui-course-infor-wrap .course-center-list .course-price-block:last-child{
+  margin-bottom: 0;
+}
+.ui-course-infor-wrap .course-center-list .course-price-block .title{
+  margin-right: 10px;
+  width:50px;
+  color: #a6a6a6;
+  display: inline-block;
+  text-align: justify;
+  text-align: end; /* 对于除了IE之外的浏览器用尾对齐覆盖之前的两端对齐方式 */ 
+  text-align-last: justify;
+  text-justify: distribute;
+}
+.ui-course-infor-wrap .course-center-list .course-price-block .cur-price{
+  font-size: 26px;
+  padding: 0;
+  font-style: normal;
+  margin-right: 10px;
+}
+.ui-course-infor-wrap .course-center-list .course-price-block .orig-price{
+  margin-right: 10px;
+  font-size: 16px;
+  color: #a6a6a6;
+}
+.ui-course-infor-wrap .course-center-list .course-price-block .tips img{
+  margin-top: -5px;
+  margin-right: 10px;
+}
+.ui-course-infor-wrap .course-center-list .course-price-block .sale{
+  height: 23px;
+  display: inline-block;
+  width: 390px;
+  overflow: hidden;
+  padding: 3px;
+  margin-top: -3px;
+  vertical-align: top;
+}
+.ui-course-infor-wrap .course-center-list .course-price-block .sale li{
+  margin-bottom: 10px;
+}
+.ui-course-infor-wrap .course-center-list .course-price-block .sale li:last-child{
+  margin-bottom: 0;
+}
+.ui-course-infor-wrap .course-center-list .course-price-block .sale .ticket{
+  border: solid 1px #e74c3c;
+  color: #e74c3c;
+  padding: 2px 4px;
+}
+.ui-course-infor-wrap .course-center-list .course-price-block .sale_toggle i{
+  cursor: pointer;
+   -ms-transition: all .2s;
+   -moz-transition: all .2s;
+   -o-transition: all .2s;
+   -webkit-transition: all .2s;
+   transition: all .2s;
+  transform: rotate(0);
+}
+.ui-course-infor-wrap .course-center-list .course-price-block .gifts{
+  max-width: 480px;
+  display: inline-block;
+  padding-left: 3px;
+  vertical-align: top;
+}
+.ui-course-infor-wrap .course-center-list .course-price-block .gifts .gifts_disc{
+  border-right: solid 1px #dcdcdc;
+  padding: 0 10px;
+}
+.ui-course-infor-wrap .course-center-list .course-price-block .gifts .gifts_disc:first-child{
+  padding-left: 0;
+}
+.ui-course-infor-wrap .course-center-list .course-price-block .gifts .gifts_disc:last-child{
+  border-right: none;
+}
+.ui-course-infor-wrap .course-center-list .course-Cteacher-wrapper{
+  width: 100%;
+  padding-bottom: 15px;
+  border-bottom: solid 1px #e1e1e1;
+  overflow: hidden;
+}
+.ui-course-infor-wrap .course-center-list .course-Cteacher-wrapper .Cteacher{
+  min-height: 80px;
+  display: flex;
+  justify-content:center;
+  align-items:Center;
+  width: 50%;
+}
+.ui-course-infor-wrap .course-center-list .course-Cteacher-wrapper .chTeacher{
+  border-right: solid 1px #e1e1e1;
+}
+.ui-course-infor-wrap .course-center-list .course-Cteacher-wrapper .avatar{
+  display: inline-block;
+  padding: 0 20px;
+}
+.ui-course-infor-wrap .course-center-list .course-Cteacher-wrapper .avatar img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.ui-course-infor-wrap .course-center-list .course-Cteacher-wrapper .avatar-disc{
+  display: inline-block;
+}
+.ui-course-infor-wrap .course-center-list .course-Cteacher-wrapper .avatar-disc .title{
+  font-size: 14px;
+}
+.ui-course-infor-wrap .course-center-list .course-Cteacher-wrapper .avatar-disc em.red{
+  font-size: 14px;
+}
+.ui-course-infor-wrap .course-center-list .course-Fteacher-wrapper .title{
+  font-size: 14px;
+  padding: 0 20px;
+}
+.ui-course-infor-wrap .course-center-list .course-Fteacher-wrapper .f_avatar li{
+  display: inline-block;
+  margin : 15px 0 5px 15px;
+}
+.ui-course-infor-wrap .course-center-list .course-Fteacher-wrapper .f_avatar_img{
+  position: relative;
+  padding: 3px;
+  margin: 0;
+  border: solid 1px #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.ui-course-infor-wrap .course-center-list .course-Fteacher-wrapper .f_avatar .current{
+  .f_avatar_img{
+    border-color: #e74c3c;
+    &:before{
+      content: '';
+      display: block;
+      width: 13px;
+      height: 25px;
+      position: absolute;
+      top: 15px;
+      left: 23px;
+      border: solid 2px #fff;
+      border-left: none;
+      border-top: none;
+      border-radius: 2px;
+      transform: rotate(45deg);
+      z-index: 300;
+    }
+    &:after{
+      content: '';
+      display: block;
+      width: 90%;
+      height: 90%;
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      border-radius: 50%;
+      background: rgba(12, 18, 66, 0.36);
+      z-index: 200;
+    }
+  }
+  .f_avatar_name{
+    color: #e74c3c;
+  }
+}
+.ui-course-infor-wrap .course-center-list .course-Fteacher-wrapper .f_avatar_img>img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.ui-course-infor-wrap .course-center-list .course-Fteacher-wrapper .f_avatar_name{
+  text-align: center;
+}
+.ui-course-infor-wrap .course-center-list .course-Fteacher-wrapper .f_course_time{
+  width:100%;
+  border: dashed 1px #e1e1e1;
+  padding: 10px 30px;
+  .f_course_time_title{
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 6px;
+  }
+  .f_course_time_arrow{
+    position: relative;
+    -ms-transition: all .4s;
+    -moz-transition: all .4s;
+    -o-transition: all .4s;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    &:before{
+      content: '';
+      display: block;
+      width: 4px;
+      height: 0;
+      position: absolute;
+      top: -23px;
+      left: 8px;
+      border: solid 6px #e74c3c;
+      border-color: transparent transparent #e74c3c transparent;
+      z-index: 200;
+    }
+    &:after{
+      content: '';
+      display: block;
+      width: 58px;
+      height: 0;
+      position: absolute;
+      top: -12px;
+      left: -15px;
+      border-bottom: solid 3px #e74c3c;
+      z-index: 200;
+    }
+  }
+  .f_course_time_block{
+    display: none;
+    .f_course_time_d{
+      display: inline-block;
+      min-width: 170px;
+    }
+    p{
+      margin: 0;
+    }
+  }
+}
+.ui-course-infor-wrap .course-center-list .course-countDown-wrapper{
+  font-size: 14px;
+}
+
+
 .ui-course-infor-wrap .course-center-list .course-favorable-money {
   height: 60px;
   margin-bottom: 5px;
@@ -1263,6 +1554,7 @@
   margin-top: 10px;
 }
 .feedBackAnchor {
+  display: none;
   width: 140px;
   overflow: hidden;
   border: 1px solid #dcdcdc;
@@ -1336,11 +1628,13 @@
   height: 40px;
 }
 .courseConsult_info .zhiCustomBtn {
-   display: block;
-    height: 40px;
-    text-indent: -999999em;
-     background: url(../Mall.courseInfo/img/headphones_kc.png) no-repeat;
-     cursor: pointer;
+  display: block;
+  height: 40px;
+  width:100%;
+  border:none;
+  text-indent: -999999em;
+  background: url(../Mall.courseInfo/img/headphones_kc.png) no-repeat;
+  cursor: pointer;
 }
 /*
  * CSS Styles that are needed by jScrollPane for it to operate correctly.

@@ -2,7 +2,11 @@
 <link rel="import" href="../Layer/layer.Mall.head.tpl?__inline"><!-- 未来的HTML模板引入方式 -->
 
 <!-- 学习中心区域 -->
-<div class="container top m20">
+<div class="container">
+    <ol id="module-breadcrumb" class="breadcrumb">
+        <li><a href="#">课程分类</a></li>
+        <li class="active">三年级</li>
+    </ol>
 <!--   12栏的用这个    -->
 	<div class="row">
 			<link rel="import" href="../../widget/Mall.courseInfo/courseBackInfo.tpl?__inline">

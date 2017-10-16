@@ -2003,14 +2003,13 @@ ul, li {
     }
   }
   .rank-satisfy {
-    width: 350px;
+    width: 320px;
     height: 56px;
     color: #999;
     overflow: hidden;
     border-left: 1px solid #dcdcdc;
-    padding-left: 15px;
     margin-top:17px;
-    padding-right: 30px;
+    padding: 0 15px;
     p.difficulty {
         height: 40px;
           line-height: 135%;
@@ -2031,11 +2030,11 @@ ul, li {
       }
   }
   .rank-coach {
-    width:290px;
+    width:410px;
     overflow: hidden;
       .coach-teacher{
             float: left;
-            width:145px;
+            width:135px;
               padding-top: 25px;
               font-size: 12px;
               position: relative;
@@ -2071,7 +2070,7 @@ ul, li {
       }
   }
   .rank-places {
-      display: none;
+    display: none;
     width: 110px;
     color: #999;
     padding-top: 10px;
@@ -2108,19 +2107,22 @@ ul, li {
   }
   .rank-money {
     width: 140px;
+    float: right;
     overflow: hidden;
     text-align: left;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
     strong {
       display: inline-block;
       color: #e74c3c;
       font-size: 24px;
       font-weight: normal;
-      padding-top: 20px;
-
-      &.former {
-        padding-top: 22px;
-      }
-        
     }
    .stop-shop-times {
       font-size: 12px;color: #999;padding-left: 3px;
@@ -2131,7 +2133,8 @@ ul, li {
     del {
       color: #999;
       margin-left:5px;
-        font-size: 14px;
+      font-size: 14px;
+      display: block;
     }
   }
   .rank-btn {
@@ -2151,6 +2154,34 @@ ul, li {
         background: #bfbfbf;
       }
       &.btn-orange {background: #ffe4d0;border:1px solid #f0cab6;color: #eb711d;}
+    }
+  }
+  .rank-newbtn {
+    width: 85px;
+    float: right;
+    margin: 0 10px;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    .btn {
+      width: 85px;
+      height: 28px;
+      line-height: 28px;
+      text-align: center;
+      font-size: 14px;
+      border-radius: 4px;
+      padding: 0;
+      background: #e74c3c;
+      color: #fff;
+      margin: 5px 0;
+      &.btn-gray {
+        background: #fff;border:1px solid #dbdbdb;color: #999999;
+      }
+      &.btn-orange {background: #fff;border:1px solid #f0cab6;color: #eb711d;}
     }
   }
   .quota-full {
