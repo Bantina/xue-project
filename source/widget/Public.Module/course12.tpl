@@ -216,7 +216,9 @@
         </p>
     </div>
     <div class="rank-limit-places">&nbsp;</div>
-    <div class="quota-full"><img src="img/quota-full.png" /></div>
+    <div class="rank-newbtn">
+        <div class="quota-full"><img src="img/quota-full.png" /></div>
+    </div>
     <div class="rank-money"> <strong class="former">￥1300</strong>
         <br/> <del>￥9000</del>
     </div>

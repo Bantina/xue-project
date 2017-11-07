@@ -209,7 +209,9 @@ $(function () {
             con = '抱歉，本课程已经报满，暂时无法报名';
         }else if(tpl === '考试未通过'){
 			 con = '抱歉您未通过考试，您的得分<strong style="color:#cc0000;">'+ b +'</strong>分，分数线<strong style="color:#cc0000;">'+ c +'</strong>分。请报名其他课程。';
-		}else{
+		}else if(tpl === '待售'){
+            con = '当前课程即将售卖';
+        }else{
             con = '抱歉，当前没有正在进行的课程排期';
         }
         xue.win({
